@@ -2,10 +2,10 @@ import React from 'react'
 
 const Admissions = () => {
   return (
-    <div className="container flex flex-row gap-2 w-full bg-slate-100 h-[424px] border-2 mt-2 p-2 dark:bg-slate-950 dark:text-white">
+    <div  className="container flex flex-row gap-2 w-full bg-slate-50 shadow-md h-[424px] border-t border-slate-950 dark:border-white mt-2 p-2 dark:bg-slate-950 dark:text-white">
       
       
-        <div className="box w-1/2 h-full border-2 p-4 flex flex-col gap-6 text-center">
+        <div className="box w-1/2 h-full  p-4 flex flex-col gap-6 text-center">
         <div><p className='text-2xl font-bold underline'>Admissions</p></div>
         <p className="text-sm font-semibold">
           Click a section on the left to learn more about our admissions process.

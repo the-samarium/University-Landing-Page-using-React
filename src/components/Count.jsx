@@ -3,7 +3,7 @@ import React from "react";
 const Count = () => {
   return (
     <div
-      className="w-full bg-cover bg-center text-white bg-slate-600 mt-2 border-2 py-16"
+      className="w-full bg-cover bg-center text-white bg-slate-600 mt-4 mb-4 border-t border-slate-950 dark:border-white border-b rounded-md py-16"
       style={{
         backgroundImage: "url('/path-to-your-image/7c283391-a4d7-4933-8bbd-f8b31396fcdc.png')",
       }}
