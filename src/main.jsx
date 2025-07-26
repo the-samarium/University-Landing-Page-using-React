@@ -9,6 +9,8 @@ import AboutPage from './pages/AboutPage.jsx';
 import AdmissionsPage from './pages/AdmissionsPage.jsx';
 import ProgramsPage from './pages/ProgramsPage.jsx';
 import Collect from './components/Collect.jsx';
+import CampusLife from './pages/CampusLife.jsx';
+import TPO from './pages/TPO.jsx';
 
 const router = createBrowserRouter([
    {
@@ -20,6 +22,8 @@ const router = createBrowserRouter([
       { path: 'about', element: <AboutPage /> },
       { path: 'admission', element: <AdmissionsPage /> },
       { path: 'programs', element: <ProgramsPage /> },
+      { path: 'campus', element: <CampusLife /> },
+      { path: 'tpo', element: <TPO /> },
     ],
   },
 ]);

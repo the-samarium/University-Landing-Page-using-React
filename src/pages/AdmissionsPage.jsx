@@ -3,23 +3,26 @@ import React from 'react';
 const AdmissionsPage = () => {
   return (
     <div className="container w-3/4 p-4 m-4 border rounded-lg bg-white dark:bg-slate-950 dark:text-white space-y-6">
-      
 
-      
+
+
       {/* Title */}
       <div className="w-full border-b border-gray-300 dark:border-slate-700 pb-2">
         <h1 className="text-3xl font-bold text-gray-800 dark:text-white">Admissions</h1>
       </div>
-          {/* Hero Section */}
+      {/* Hero Section */}
       <div className="w-11/12 mx-auto flex flex-col md:flex-row items-center justify-between bg-gray-100 dark:bg-slate-900 rounded-lg p-6 shadow">
         <div className="space-y-3 md:w-2/3">
           <h1 className="text-4xl font-bold text-gray-800 dark:text-white">Join Our Academic Community</h1>
           <p className="text-gray-700 dark:text-gray-300 text-lg">
             Discover a transformative learning experience. Explore programs, learn about the process, and take the first step toward your future.
           </p>
-          <button className="mt-3 px-6 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition">
+          
+          <a href="/form.pdf" download>
+             <button className="mt-3 px-6 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition">
             Apply Now
           </button>
+          </a>
         </div>
         <div className="md:w-1/3 h-3/4 mt-4 md:mt-0">
           <img
@@ -42,7 +45,7 @@ const AdmissionsPage = () => {
         <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 space-y-1">
           <li>Minimum 50% in 12th grade for undergraduate programs.</li>
           <li>Relevant bachelor's degree for postgraduate admissions.</li>
-          <li>Entrance exam score (if applicable).</li>
+          <li>Entrance exam score.</li>
         </ul>
       </div>
 
@@ -61,7 +64,7 @@ const AdmissionsPage = () => {
       {/* Important Dates */}
       <div className="border border-gray-300 dark:border-slate-700 p-4 rounded-md bg-gray-50 dark:bg-slate-950 shadow-sm">
         <h2 className="text-xl font-semibold text-gray-800 dark:text-white mb-2">Important Dates</h2>
-        <ul className="text-gray-700 dark:text-gray-300 space-y-1">
+        <ul className="text-blue-500 dark:text-red-300 space-y-1">
           <li><strong>Application Start:</strong> May 1, 2025</li>
           <li><strong>Application Deadline:</strong> July 15, 2025</li>
           <li><strong>Entrance Exam:</strong> August 1, 2025</li>
@@ -72,7 +75,7 @@ const AdmissionsPage = () => {
       {/* Contact Information */}
       <div className="border border-gray-300 dark:border-slate-700 p-4 rounded-md bg-gray-50 dark:bg-slate-950 shadow-sm">
         <h2 className="text-xl font-semibold text-gray-800 dark:text-white mb-2">Contact Admissions Office</h2>
-        <p className="text-gray-700 dark:text-gray-300">
+        <p className="text-blue-700 dark:text-blue-500">
           Email: admissions@college.edu <br />
           Phone: +91 12345 67890 <br />
           Address: 123 College Road, City, State, India
